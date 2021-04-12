@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Eina04-Bold';
+  src: url('Eina04-Bold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Eina04-SemiBold';
+  src: url('Eina04-SemiBold.ttf') format('ttf');
+}
+
+@font-face {
+  font-family: 'Eina04-Regular';
+  src: url('Eina04-Regular.ttf') format('ttf');
+}
