@@ -22,7 +22,7 @@ function RoadMap(props) {
 
             <Timeline.Item style={{ fontSize: "18px" }}>Livecoin</Timeline.Item>
             <Timeline.Item style={{ fontSize: "18px" }}>
-              Coinghecko
+              Coingecko
             </Timeline.Item>
 
             <Timeline.Item style={{ fontSize: "18px" }}>

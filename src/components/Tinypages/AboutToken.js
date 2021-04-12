@@ -21,7 +21,13 @@ function AboutToken(props) {
         </Col>
 
         <Col xs={24} md={8}>
-          <AboutCard text="Click here to see token burnt to blackhole forever" />
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://bscscan.com/token/0x5a054554b3f0c75063d29250984a921402e1e3a7?a=0x0000000000000000000000000000000000000000"
+          >
+            <AboutCard text="Click here to see token burnt to blackhole forever" />
+          </a>
         </Col>
 
         <Col xs={24} md={8}>
