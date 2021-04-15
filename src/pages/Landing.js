@@ -9,6 +9,7 @@ import RoadMap from "../components/Tinypages/RoadMap";
 import Social from "../components/Tinypages/Social";
 import News from "../components/Tinypages/News";
 import Footer from "../components/layout/Footer";
+import Tokenomics from "../components/Tinypages/Tokenomics";
 function Landing(props) {
   return (
     <div>
@@ -62,15 +63,19 @@ function Landing(props) {
         <img src={flash} alt="flash" />
       </section>
 
-      <section className="lg:my-24 my-10">
+      <section className="lg:mt-24 mt-10">
         <AboutToken />
+
+        <section className="lg:mt-24 mt-10 tokenomics">
+          <Tokenomics />
+        </section>
       </section>
 
-      <section className="lg:my-24 my-10">
+      <section className="lg:mb-24 mb-10">
         <ViewContract />
       </section>
 
-      <section className="lg:my-24 my-10">
+      <section className="lg:mb-24 mb-10">
         <RoadMap />
       </section>
 
