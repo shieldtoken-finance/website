@@ -15,8 +15,29 @@ function Landing(props) {
     <div>
       <Header />
       <Hero />
+      <section className="lg:mt-10 mt-4 flex lg:justify-center lg:flex-row flex-col items-center">
+        <a
+          className="lg:order-1 order-2 lg:my-0 my-2"
+          rel="noreferrer"
+          href="https://goswapp-bsc.web.app/0x5a054554b3f0c75063d29250984a921402e1e3a7"
+          target="_blank"
+        >
+          <Button>Live Chart</Button>
+        </a>
+        <div className="lg:mx-20 mx-4 order-1 lg:order-2">
+          <div
+            class="livecoinwatch-widget-6"
+            lcw-coin="SDF"
+            lcw-base="USD"
+            lcw-period="d"
+            lcw-color-tx="#ffffff"
+            lcw-color-bg="#0033ad"
+            lcw-border-w="1"
+          ></div>
+        </div>
+      </section>
 
-      <section className="lg:my-24 my-10 relative">
+      <section className="lg:my-24 my-10">
         <div className="lg:mx-20 mx-4 flex lg:flex-row flex-col justify-between">
           <div className="flex-1">
             <h2 className="hero-text text-black lg:text-3xl text-lg">

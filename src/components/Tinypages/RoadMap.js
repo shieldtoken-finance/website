@@ -20,16 +20,25 @@ function RoadMap(props) {
               Pancakes Listing and LP burn
             </Timeline.Item>
 
-            <Timeline.Item style={{ fontSize: "18px" }}>Livecoin</Timeline.Item>
+            <Timeline.Item style={{ fontSize: "18px" }} label="2021-04-22">
+              Livecoin
+            </Timeline.Item>
             <Timeline.Item style={{ fontSize: "18px" }}>
-              Coingecko
+              Coingecko <span className="text-sm text-primary">Applied</span>
             </Timeline.Item>
 
             <Timeline.Item style={{ fontSize: "18px" }}>
-              Coinmarketcap
+              Coinmarketcap{" "}
+              <span className="text-sm text-primary">Applied</span>
             </Timeline.Item>
-            <Timeline.Item style={{ fontSize: "18px" }}>
-              Partnership
+            <Timeline.Item
+              style={{ fontSize: "18px" }}
+              label="Open until the end of the year"
+            >
+              Partnership{" "}
+              <span className="text-sm text-primary">
+                (Partnered with Raven x)
+              </span>
             </Timeline.Item>
             <Timeline.Item style={{ fontSize: "18px" }}>
               CEX Listing

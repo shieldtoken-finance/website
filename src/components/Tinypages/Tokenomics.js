@@ -66,7 +66,7 @@ function Tokenomics(props) {
             <Col xs={24} md={8}>
               <TokenCard
                 title="Circulating supply"
-                text="79,299,256 SDF (as of 5:24 AM UTC 15.4.2021"
+                text="69,951,459 SDF (as of 20:57:29 PM UTC 23.4.2021"
               />
             </Col>
           </Row>
