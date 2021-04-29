@@ -1,5 +1,5 @@
 import React from "react";
-import { Button } from "antd";
+import { Button, Col, Row } from "antd";
 import Header from "../components/layout/Header";
 import Hero from "../components/layout/Hero";
 import flash from "../assets/flash.svg";
@@ -10,6 +10,8 @@ import Social from "../components/Tinypages/Social";
 import News from "../components/Tinypages/News";
 import Footer from "../components/layout/Footer";
 import Tokenomics from "../components/Tinypages/Tokenomics";
+import Pancakeswap from "../components/customIcon/pancake";
+import Bakery from "../components/customIcon/bakery";
 function Landing(props) {
   return (
     <div>
@@ -63,22 +65,36 @@ function Landing(props) {
               JUST HOLD! THE MOON IS NEAR
             </h3>
 
-            <a
-              rel="noreferrer"
-              href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x5a054554b3f0c75063d29250984a921402e1e3a7"
-              target="_blank"
-            >
-              <div className="flex justify-center lg:justify-start">
-                <Button
-                  shape="round"
-                  className=" lg:w-1/3 w-3/4  font-semibold my-5"
-                  size="large"
-                  type="primary"
+            <Row gutter={[10, 10]}>
+              <Col xs={24} md={12} lg={12}>
+                <a
+                  rel="noreferrer"
+                  href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x5a054554b3f0c75063d29250984a921402e1e3a7"
+                  target="_blank"
                 >
-                  Buy now
-                </Button>
-              </div>
-            </a>
+                  <div className="bg-primary my-5 rounded-full flex justify-center items-center h-16 ">
+                    <span className="text-white mx-2 text-lg font-bold">
+                      Buy on Pancakeswap
+                    </span>
+                    <Pancakeswap />
+                  </div>
+                </a>
+              </Col>
+              <Col xs={24} md={12} lg={12}>
+                <a
+                  rel="noreferrer"
+                  href="https://www.bakeryswap.org/#/swap?inputCurrency=0x5a054554b3f0c75063d29250984a921402e1e3a7&outputCurrency=0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c"
+                  target="_blank"
+                >
+                  <div className="bg-primary my-5 rounded-full flex justify-center items-center h-16 ">
+                    <span className="text-white mx-2 text-lg font-bold">
+                      Buy on bakeryswap
+                    </span>
+                    <Bakery />
+                  </div>
+                </a>
+              </Col>
+            </Row>
           </div>
         </div>
         <img src={flash} alt="flash" />

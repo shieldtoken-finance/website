@@ -19,16 +19,16 @@ function Hero(props) {
             </p>
             <a
               rel="noreferrer"
-              href="https://exchange.pancakeswap.finance/#/swap?inputCurrency=0x5a054554b3f0c75063d29250984a921402e1e3a7"
+              href="https://info.bakeryswap.org/#/pair/0xe0c501e5a8b79280660f80bd7a3563b5a6b7e613"
               target="_blank"
             >
               <div className="flex justify-center lg:justify-start">
                 <Button
                   shape="round"
-                  className=" lg:w-1/2 w-3/4 hero-btn font-semibold my-5"
+                  className=" lg:w-2/3 w-full hero-btn font-semibold my-5"
                   size="large"
                 >
-                  Buy now
+                  See Analytics On Bakeryswap
                 </Button>
               </div>
             </a>

@@ -9,10 +9,7 @@ function Header(props) {
     <div className="flex justify-between h-24 lg:mx-20 mx-4">
       <div className=" flex  items-center">
         <Link to="/">
-          <Avatar
-            src="https://res.cloudinary.com/dus4sijdt/image/upload/v1618073815/logo_uz9rwo.jpg"
-            size="large"
-          />
+          <Avatar src="https://i.ibb.co/ctjFkPS/sdf-new.png" size="large" />
         </Link>
       </div>
       <div className="flex-1  lg:flex items-center justify-end space-x-10 hidden">
