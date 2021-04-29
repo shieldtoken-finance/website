@@ -21,7 +21,7 @@ function ViewContract(props) {
 
             <a
               rel="noreferrer"
-              href="https://bscscan.com/token/0x5a054554b3f0c75063d29250984a921402e1e3a7"
+              href="https://res.cloudinary.com/dus4sijdt/image/upload/v1619697146/sdf_white_paper_2_1_e2ri0m.pdf"
               target="_blank"
             >
               <div className="flex justify-center lg:justify-start">
@@ -31,7 +31,7 @@ function ViewContract(props) {
                   className=" lg:w-1/2   font-semibold my-5"
                   size="large"
                 >
-                  View $SDF on bscscan
+                  Donwload White Paper
                 </Button>
               </div>
             </a>
