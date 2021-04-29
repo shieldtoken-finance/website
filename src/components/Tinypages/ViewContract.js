@@ -31,7 +31,7 @@ function ViewContract(props) {
                   className=" lg:w-1/2   font-semibold my-5"
                   size="large"
                 >
-                  Donwload White Paper
+                  Download White Paper
                 </Button>
               </div>
             </a>
