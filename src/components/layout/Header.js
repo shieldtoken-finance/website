@@ -43,8 +43,21 @@ function Header(props) {
 
       <Drawer visible={openSide} onClose={() => setOpenside(false)}>
         <div className="flex flex-col  space-y-5 my-10">
-          <NavLink label="Home" to="/" activeOnlyWhenExact={true} />
-          <NavLink label="News" to="/news" activeOnlyWhenExact={true} />
+          <Link to="about" smooth={true} duration={500} delay={200}>
+            <span className="text-black font-bold"> About</span>
+          </Link>
+
+          <Link to="tokenomics" smooth={true} duration={500} delay={200}>
+            <span className="text-black font-bold">Tokenomics</span>
+          </Link>
+
+          <Link to="roadmap" smooth={true} duration={500} delay={200}>
+            <span className="text-black font-bold">Roadmap</span>
+          </Link>
+
+          <Link to="social" smooth={true} duration={500} delay={200}>
+            <span className="text-black font-bold">Social Media</span>
+          </Link>
         </div>
       </Drawer>
     </div>
