@@ -1,7 +1,6 @@
 import { Avatar, Drawer } from "antd";
 import React, { useState } from "react";
 import Scroll from "react-scroll";
-import NavLink from "./NavLink";
 import { AlignRightOutlined } from "@ant-design/icons";
 import Logo from "../../assets/logo.png";
 

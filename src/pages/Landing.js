@@ -51,7 +51,7 @@ function Landing(props) {
             <div className="flex-1">
               <p className="text-base lg:text-lg">
                 All investors are rewarded with BUSD as another 4% of every
-                transaction is channeled to every $BLENS holder as a passive
+                transaction is channelled to every $BLENS holder as a passive
                 income or as gift of holding the tokens.
               </p>
 
