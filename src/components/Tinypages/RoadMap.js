@@ -58,7 +58,7 @@ function RoadMap(props) {
               Tracking on Coinbase & Blockfolio.
             </Timeline.Item>
 
-            <Timeline.Item style={{ fontSize: "18px" }} label="PHASE FOUR">
+            <Timeline.Item style={{ fontSize: "18px" }} label="PHASE THREE">
               50,000 hodlers and $250 million MarketCap.
             </Timeline.Item>
             <Timeline.Item style={{ fontSize: "18px" }}>
