@@ -8,13 +8,13 @@ function Tokenomics(props) {
     <div className="lg:mx-20 mx-4 py-5">
       <Row gutter={[10, 10]}>
         <Col xs={24} md={6}>
-          <p className="text-base text-white">Tokenomics</p>
+          <p className="text-base text-white font-extrabold">Tokenomics</p>
           <Divider style={{ backgroundColor: "white" }} />
         </Col>
         <Col xs={24} md={18} className="w-full">
           <Row gutter={[10, 10]}>
             <Col xs={24} md={8}>
-              <TokenCard title="Ticker" text="SDF" />
+              <TokenCard title="Ticker" text="$BLENS" />
             </Col>
             <Col xs={24} md={8}>
               <TokenCard title="Token type" text="BEP20" />
@@ -40,11 +40,11 @@ function Tokenomics(props) {
                       whiteSpace: "nowrap",
                     }}
                     copyable={{
-                      text: "0x5a054554b3f0c75063d29250984a921402e1e3a7",
+                      text: "0x1f2cd43797806664d0bce1ec4284ac83840d0bf1",
                     }}
                   >
                     <span className="text-2xl text-green-500 text-center">
-                      0x5a054..
+                      0x1f2..
                     </span>
                   </Paragraph>
                 </div>
@@ -55,18 +55,18 @@ function Tokenomics(props) {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://bscscan.com/token/0x5a054554b3f0c75063d29250984a921402e1e3a7"
+                href="https://bscscan.com/token/0x1f2cd43797806664d0bce1ec4284ac83840d0bf1"
               >
                 <TokenCard title="BscScan" text="Click here" />
               </a>
             </Col>
             <Col xs={24} md={8}>
-              <TokenCard title="Total token supply" text="100,000,000 SDF" />
+              <TokenCard title="Total token supply" text="1,000,000 BLENS" />
             </Col>
             <Col xs={24} md={8}>
               <TokenCard
-                title="Circulating supply"
-                text="69,951,459 SDF (as of 20:57:29 PM UTC 23.4.2021"
+                title="Bonus reward"
+                text="All investors are rewarded with BUSD"
               />
             </Col>
           </Row>

@@ -23,46 +23,46 @@ function Social(props) {
     <div className="lg:mx-20 mx-4 py-24 h-full">
       <Card
         style={{
-          backgroundColor: "#171bff",
+          backgroundColor: "#fe9601",
           height: 150,
           backgroundImage: `url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='20' height='20' viewBox='0 0 200 200'%3E%3Cpolygon fill='%23DCEFFA' fill-opacity='0.13' points='100 0 0 100 100 100 100 200 200 100 200 0'/%3E%3C/svg%3E")`,
         }}
       >
         <div className="flex justify-center items-center   lg:space-x-6 space-x-3 h-24">
           <a
-            href="https://twitter.com/ShieldFinance1"
+            href="https://twitter.com/BlensOfficial"
             rel="noreferrer"
             target="_blank"
           >
             <div className="lg:h-14 h-10 lg:w-14 w-10 rounded-full shadow bg-white flex justify-center items-center">
               <TwitterCircleFilled
-                style={{ color: "#0033ad" }}
+                style={{ color: "black" }}
                 className="lg:text-3xl text-xl"
               />
             </div>
           </a>
           <a
-            href="https://t.me/shield_finance"
+            href="https://t.me/BlocklensOfficial"
             rel="noreferrer"
             target="_blank"
           >
             <div className="lg:h-14 h-10 lg:w-14 w-10 rounded-full shadow bg-white flex justify-center items-center">
               <Icon
                 component={Telegram}
-                style={{ color: "#0033ad" }}
+                style={{ color: "black" }}
                 className="lg:text-3xl text-xl"
               />
             </div>
           </a>
 
           <a
-            href="https://medium.com/@ShieldFinance1"
+            href="https://medium.com/@BlensOfficial"
             rel="noreferrer"
             target="_blank"
           >
             <div className="lg:h-14 h-10 lg:w-14 w-10 rounded-full shadow bg-white flex justify-center items-center">
               <MediumCircleFilled
-                style={{ color: "#0033ad" }}
+                style={{ color: "black" }}
                 className="lg:text-3xl text-xl"
               />
             </div>
@@ -70,12 +70,12 @@ function Social(props) {
 
           <a
             rel="noreferrer"
-            href="https://www.reddit.com/r/Shield_Finance?utm_medium=android_app&utm_source=share"
+            href="https://www.reddit.com/r/BlockLens_Official/"
             target="_blank"
           >
             <div className="lg:h-14 h-10 lg:w-14 w-10 rounded-full shadow bg-white flex justify-center items-center">
               <RedditCircleFilled
-                style={{ color: "#0033ad" }}
+                style={{ color: "black" }}
                 className="lg:text-3xl text-xl"
               />
             </div>
